@@ -19,11 +19,6 @@ Root Mean Square Error</th>
             <td>0.0529</td>
 <!--             <td>89.560000</td> -->
         </tr>
-        <tr>
-            <td>BayesianRidge</td>
-            <td>0.0984</td>
-<!--             <td></td> -->
-        </tr>
       <tr>
             <td>KNeighborsRegressor</td>
             <td>0.2026</td>
@@ -62,4 +57,4 @@ Root Mean Square Error</th>
     </tbody>
 </table>
 
-Overall RMS error using combined results of VotingRegressor and StackingRegressor and lasso: 0.12343
+Overall RMS error on test data using combined results of VotingRegressor and StackingRegressor and lasso: 0.12343
